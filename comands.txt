@@ -12,16 +12,16 @@
 2 git config --global user.name "Your name" ,usernameul din github
  
    CONECTARE REPOSITORY LA github
-1 echo    "textul din readme.md" >> README.md ,se creeaza un fisier nou numit README.md cu textul dinte cratime
-2 git init   , initializeaza procesul de comunicare dintre folderul local si repozitory-ul aflat pe GitHub 
-3 git remote add origin +link-repozitory , specifica linkul repozitory pe care in actualizam.
-4 git status  ,arata fisierele noi sau modificare care nu au fost pregatite de lansare pe git. 
-5 git add .  , adauga fisierele in staging area.
+1 echo "textul din readme.md" >> README.md   ,se creeaza un fisier nou numit README.md cu textul dinte cratime
+2 git init     ,initializeaza procesul de comunicare dintre folderul local si repozitory-ul aflat pe GitHub 
+4 git status   ,arata fisierele noi sau modificare care nu au fost pregatite de lansare pe git. 
+5 git add .    ,adauga fisierele in staging area.
 6 git commit -m "descrirea modificarilor facute" 
-7 git branch -M main  , schimba numele branch-ului ptrincipal in main. 
-8 git push -u origin main  , trimite  codul catre github.
-9 git pull , descarca fisierele din repo in calculator.
+7 git branch -M main   , schimba numele branch-ului ptrincipal in main. 
+3 git remote add origin  +link-repozitory , specifica linkul repozitory pe care in actualizam.
+8 git push -u origin     +nume branch  , trimite  codul catre github.
+9 git pull     , descarca fisierele din repo in calculator.
 
   Branching
-1 git checkout -b secondary-branch- se creeaza branch nou cu numele secondary branch
-2 git checkout                      se folosecte si pentru a schimba brach-ul
+1 git checkout -b secondary-branch  Se creeaza branch nou cu numele secondary branch
+2 git checkout  +denumire branch    Se folosecte si pentru a schimba brach-ul

@@ -1,4 +1,8 @@
-   COMENZI GENERALE
+   COMFIGURATE PE CALCULATOR
+1 git config --global user.email "mail@gmail.com" ,emailul asociat cu contul github
+2 git config --global user.name "Your name" ,usernameul din github
+
+COMENZI GENERALE
 1 git --version
 2 pwd   (print working directory)
 3 ls    afiseaza fisierele din folderul curent
@@ -6,10 +10,6 @@
 5 cd +nume   folder, mergi in folderul numit
 6 touch +nume   fisier , creaza fisier nu numele respectiv
 7 mkdir + nume   folder, creaza folder cu numele respectiv
-   
-   COMFIGURATE PE CALCULATOR
-1 git config --global user.email "mail@gmail.com" ,emailul asociat cu contul github
-2 git config --global user.name "Your name" ,usernameul din github
  
    CONECTARE REPOSITORY LA github
 1 echo "textul din readme.md" >> README.md   ,se creeaza un fisier nou numit README.md cu textul dinte cratime

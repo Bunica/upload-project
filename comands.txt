@@ -24,3 +24,4 @@
 
   Branching
 1 git checkout -b secondary-branch- se creeaza branch nou cu numele secondary branch
+2 git checkout                      se folosecte si pentru a schimba brach-ul
